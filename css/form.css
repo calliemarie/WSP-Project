@@ -1,0 +1,111 @@
+body{
+	max-width: 960px;
+	background: #330000;
+	font-family: 'Verdana', sans-serif;
+}
+
+h1{
+	font-family: 'Italianno', cursive;
+	color: #33cccc;
+	font-size: 70px;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+h2{
+	color: #ffffcc;
+	margin: 0 auto;
+	margin-left: 112px;
+	padding-top: 0px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+
+h3{
+	font-family: 'Italianno', cursive;
+	font-size: 40px;
+	color: #ffffcc;
+	text-align: center;
+	line-height: 40px;
+}
+
+nav ul{
+	background: #33cccc;
+	list-style-type: none;
+	overflow: hidden;
+	color: white;
+	padding: 10px;
+}
+
+nav li{
+	float: left;
+	padding-left: 60px;
+	font-size: 18px;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	line-height: 15px;
+	text-align: center;
+	color: white;
+}
+
+nav a:visited{
+	text-decoration: none;
+}
+
+nav a:hover{
+	background: white;
+	color: #33cccc;
+	text-decoration: none;
+}
+/*------------------------------------Sender----------------------------------*/
+
+#sender{
+	background: #ffffcc;
+	width: 430px;
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#sender h3{
+	color: #330000;
+	text-align: left;
+	margin: 15px;
+}
+
+#recipient{
+	background: #ffffcc;
+	width: 430px;
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+#recipient h3{
+	color: #330000;
+	text-align: left;
+	margin: 15px;
+}
+
+
+
+
+	
+/*------------------------------------Footer----------------------------------*/
+footer{
+	clear: both;
+	background: #33cccc;
+	line-height: 15px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: right;
+	padding: 0px 10px 0px 0px;
+	color: white;
+	overflow: hidden;
+}

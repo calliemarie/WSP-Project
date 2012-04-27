@@ -25,15 +25,19 @@ h2{
 h3{
 	font-family: 'Italianno', cursive;
 	font-size: 40px;
-	background: #33cccc;
-	color: #330000;
+	color: #ffffcc;
 	text-align: center;
 	line-height: 40px;
 }
 
 h4{
-	font-size: 18px;
+	font-family: 'Italianno', cursive;
+	font-size: 30px;
+	color: #330000;
+	text-align: center;
 	margin: 0 auto;
+	background: #33cccc;
+
 }
 
 nav ul{
@@ -67,130 +71,96 @@ nav a:hover{
 	color: #33cccc;
 	text-decoration: none;
 }
-
-#cta {
-	float: left;
-}
-
-/*------------------------------------Side Bar--------------------------------*/
-#gourmet{
+/*------------------------------------Basket----------------------------------*/
+#baskets{
 	background: #ffffcc;
-	width: 380px;
-	float: right;
-	margin: 30px;
-	margin-top: auto;
-	padding-top: 0 auto;
-	height: 371px;
+	height: 330px;
+	overflow: hidden;
+	margin-bottom: 30px;
 }
 
-#basket {
-	font-size: 12px;
-	margin: 0 auto;
+#baskets img{
 	float: left;
+	margin: 5px;
 }
 
-#cert {
-	font-size: 12px;
-	margin: 0 auto;
-	float: left;
-}
-
-#dessert {
-	font-size: 12px;
-	margin: 0 auto;
-	float: left;
-	text-align: left;
-}
-#gourmet h3{
-	margin: 0 auto;
-}
-
-#gourmet h4{
-	float: right;
-	margin: 0 auto;
-}
-
-#gourmet img{
-	float: left;
-	margin: 0 auto;
-}
-
-#location{
-	clear: both;
-	float: left;
-	background: #ffffcc;
-	width: 290px;
-	height: 150px;
-	margin: 15px;
-}
-
-#location p{
-	margin: 0 auto;
-	text-align: left;
-	padding: 5px;
-	margin-left: 30px;
-}
-
-#location h3{
-	margin: 0 auto;
-}
-#party{
-	float: left;
-	background-image: url('../images/party.jpg');
-	width: 290px;
+#baskets a{
 	text-align: right; 
-	height: 150px;
-	margin: 15px;
-}
-
-#party a{
-	text-align: right;
-	display: block;
-	margin-top: 120px;
-	margin-right: 5px;
-}
-
-#party a:visited{
-	color: white;
-	text-decoration: underline;
-}
-
-#party a:hover{
-	text-decoration: none;
-}
-#next_class{
-	float: right;
-	background: #ffffcc;
-	width: 290px;
-	height: 150px;
-	margin: 15px;
-}
-
-#next_class h3{
 	margin: 0 auto;
 }
-
-#next_class p{
-	margin: 0 auto;
-	text-align: left;
-	padding: 5px;
-	margin-left: 30px;
-}
-
-#next_class a{
-	text-align: right;
-}
-
-#next_class a:visited{
+#baskets a:visited{
 	color: #33cccc;
 	text-decoration: underline;
 }
 
-#next_class a:hover{
+#baskets a:hover{
 	text-decoration: none;
 }
+#baskets p{
+	font-size: 12px;
+}
+/*------------------------------------Certificate----------------------------------*/
 
-	
+#certificate{
+	background: #ffffcc;
+	height: 330px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+#certificate img{
+	float: left;
+	margin: 5px;
+}
+
+#certificate a{
+	text-align: right; 
+	margin: 0 auto;
+}
+
+#certificate a:visited{
+	color: #33cccc;
+	text-decoration: underline;
+}
+
+#certificate a:hover{
+	text-decoration: none;
+}
+#certificate p{
+	font-size: 12px;
+}
+
+/*------------------------------------Desserts----------------------------------*/
+
+#desserts{
+	background: #ffffcc;
+	height: 330px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+#desserts img{
+	float: left;
+	margin: 5px;
+}
+
+#desserts a{
+	text-align: right; 
+	margin: 0 auto;
+}
+
+#desserts a:visited{
+	color: #33cccc;
+	text-decoration: underline;
+}
+
+#desserts a:hover{
+	text-decoration: none;
+}
+#desserts p{
+	font-size: 12px;
+}
+
 /*------------------------------------Footer----------------------------------*/
 footer{
 	clear: both;
